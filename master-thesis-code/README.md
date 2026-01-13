@@ -1,6 +1,6 @@
 # Master Thesis – Simulation and Analysis Code
 
-This repository contains the simulation and analysis code developed for my Master thesis. The project implements an agent-based simulation model of social interactions (conflict, trade, and avoidance) under different environmental variability regimes, together with the analysis pipeline used to produce the results presented in the thesis.
+This repository contains the simulation and analysis code developed for my Master thesis. The project implements an agent-based simulation model of social interactions (conflict, trade, and avoidance) under different environmental variability scenario, together with the analysis pipeline used to produce the results presented in the thesis.
 
 Large simulation outputs are not included in this repository due to their size.
 
