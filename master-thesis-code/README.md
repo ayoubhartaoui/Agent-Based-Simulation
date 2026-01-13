@@ -11,7 +11,7 @@ Large simulation outputs are not included in this repository due to their size.
 ```
 .
 ├─ Simulation/
-│  ├─ run_simulation.jl
+│  ├─ simulation.jl
 │  ├─ Project.toml
 │  └─ Manifest.toml
 │
@@ -40,16 +40,16 @@ julia --project=Simulation -e 'using Pkg; Pkg.instantiate()'
 
 ## Running the simulations
 
-The main simulation script (covering all environmental regimes and trade rules studied in the thesis) is:
+The main simulation script is:
 
 ```
-Simulation/run_simulation.jl
+Simulation/simulation.jl
 ```
 
 Run the simulations with:
 
 ```bash
-julia --project=Simulation Simulation/run_simulation.jl
+julia --project=Simulation Simulation/simulation.jl
 ```
 
 All output files are written locally and are not tracked by git.
